@@ -209,3 +209,4 @@
 /packages/ded @elastic/ml-ui
 /packages/cloud_defend @elastic/sec-cloudnative-integrations
 /packages/lmd @elastic/ml-ui
+/packages/host_risk_score @elastic/ml-ui
