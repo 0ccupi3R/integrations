@@ -17,6 +17,9 @@ processors:
   - set:
       field: cloud.provider
       value: aws
+  - drop:
+      if: ctx.message.startsWith("#")
+      description: Drop if logline contains header, which startswith `#`
   - rename:
       field: message
       target_field: event.original
